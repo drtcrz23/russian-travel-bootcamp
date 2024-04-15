@@ -1,0 +1,8 @@
+.lead{
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px auto 92px auto;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+}
