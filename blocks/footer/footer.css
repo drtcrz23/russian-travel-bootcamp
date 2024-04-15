@@ -2,6 +2,7 @@
     max-width: 1184px;
     font-family: 'Inter', ‘Arial’, sans-serif;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0 auto 24px auto;
     width: 100%;
@@ -9,12 +10,27 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
+        width: 90%;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px){
     .footer {
+        width: 90%;
         max-width: 720px;
+    }
+}
+@media screen and (max-width: 720px){
+    .footer {
+        flex-direction: column;
+        width: 90%;
+        max-width: 648px;
+    }
+}
+@media screen and (max-width: 450px){
+    .footer {
+        width: 90%;
+        max-width: 450px;
     }
 }

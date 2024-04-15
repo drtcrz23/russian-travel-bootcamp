@@ -7,6 +7,12 @@
     transition: opacity 0.3s;
     font-family: 'Inter', ‘Arial’, sans-serif;
 }
+
 .header__lang-link:hover {
     opacity: 80%;
+}
+
+@media screen and (max-width: 450px) {
+    font-size: 18px;
+    line-height: 20px;
 }

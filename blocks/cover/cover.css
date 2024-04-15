@@ -4,16 +4,27 @@
     max-width: 1184px;
     margin: 0 auto 92px auto;
     font-family: 'Inter', ‘Arial’, sans-serif;
-    background-image: url("../../images/__background.png");
+    background-image: url("../../images/cover.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     aspect-ratio: 16/10;
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         margin: 0 auto 88px auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover {
+        max-width: 450px;
+        aspect-ratio: 16/10;
+        margin: 0 auto 64px auto;
     }
 }

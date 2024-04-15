@@ -23,8 +23,9 @@
     }
 }
 
-/*@media screen and (max-width: 450px){*/
-/*    .header {*/
-/*        max-width: 405;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 450px){
+    .header {
+        width: 90%;
+        margin-top: 16px;
+    }
+}

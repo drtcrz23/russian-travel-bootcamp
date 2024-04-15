@@ -24,3 +24,13 @@
         margin: 0 auto 88px auto;
     }
 }
+
+@media screen and (max-width: 450px){
+    .photo-grid {
+        max-width: 450px;
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 12px;
+        margin: 0 auto 64px auto;
+    }
+}

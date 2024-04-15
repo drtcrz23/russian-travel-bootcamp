@@ -10,3 +10,12 @@
     z-index: 1;
     text-decoration: none;
 }
+
+@media screen and (max-width: 450px){
+    .cover__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 0 16px 0;
+    }
+}

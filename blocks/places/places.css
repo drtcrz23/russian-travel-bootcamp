@@ -17,3 +17,9 @@
         margin: 0 auto 90px auto;
     }
 }
+@media screen and (max-width: 450px){
+    .places {
+        max-width: 450px;
+        margin: 0 auto 66px auto;
+    }
+}
