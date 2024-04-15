@@ -1,12 +1,12 @@
-.header__lang-link {
+.place__website__link {
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 22px;
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
     transition: opacity 0.3s;
     font-family: 'Inter', ‘Arial’, sans-serif;
 }
-.header__lang-link:hover {
+.place__website__link:hover {
     opacity: 80%;
 }

@@ -1,3 +1,13 @@
 .cover {
+    position: relative;
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto 92px auto;
     font-family: 'Inter', ‘Arial’, sans-serif;
+    background-image: url("../../images/__background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/10;
 }
