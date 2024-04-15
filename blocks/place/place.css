@@ -4,7 +4,22 @@
     gap: 48px 40px;
     font-family: 'Inter', ‘Arial’, sans-serif;
     margin: 0 0 80px 0;
+    width: 100%;
 }
-.place:last-child{
+
+.place:last-child {
     margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+        margin: 0 0 73px 0;
+    }
 }

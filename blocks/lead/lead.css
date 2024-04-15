@@ -1,8 +1,27 @@
 .lead{
-    width: 984px;
+    max-width: 984px;
+    max-height: 1005px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 32px auto 92px auto;
+    margin: 48px auto 92px auto;
     font-family: 'Inter', ‘Arial’, sans-serif;
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        max-height: 962px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        max-height: 862px;
+        margin: 48px auto 88px auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
 }

@@ -4,4 +4,17 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto 24px auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer {
+        max-width: 720px;
+    }
 }
