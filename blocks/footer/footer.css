@@ -10,27 +10,23 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-        width: 90%;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px){
     .footer {
-        width: 90%;
         max-width: 720px;
     }
 }
 @media screen and (max-width: 720px){
     .footer {
         flex-direction: column;
-        width: 90%;
         max-width: 648px;
     }
 }
 @media screen and (max-width: 450px){
     .footer {
-        width: 90%;
         max-width: 450px;
     }
 }
